@@ -60,12 +60,47 @@ textarea {
   border: 1px solid #4F4846;
 }
 
+footer{
+    background-color: darkslategrey;
+    position: absolute;
+    bottom: 50;
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 10px solid crimson;
+    line-height: 100px;
+    top: 5000;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    background-color: azure;
+    color: red;
+}
+
 .align-center{
     text-align: center;
 }
 
 .align-right{
     text-align: right;
+}
+
+.center-img{
+    display: block;
+    margin: 20px auto;
+    height: 300px;
+    width: auto;
+}
+
+
+
+#contact{
+    margin-bottom: 0;
+    padding: 100px 10px 110px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color:  #E8CEBF;
 }
 
 #static-header{
