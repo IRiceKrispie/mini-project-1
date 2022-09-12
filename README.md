@@ -7,3 +7,4 @@
 * Image has proper alt text and caption
 * Website includes footer
 * our index file users proper semantic html elements.
+* https://iricekrispie.github.io/mini-project-1/#contact
