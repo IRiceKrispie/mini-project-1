@@ -1,3 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 25px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(248, 42, 6);
+}
+
+nav{
+    text-align: right;
+}
+
+h1,h2{
+    margin: 20px;
+}
+
+main{
+    padding-top: 70px;
+}
+
+li{
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.align-center{
+    text-align: center;
+}
+
+#static-header{
+    position: fixed;
+    background-color: rgba(19, 170, 190, 0.24);
+    width: 100%;
+    border-bottom: 10px solid red;
+    height: 60px;
+    line-height: 70px;
+}
+
