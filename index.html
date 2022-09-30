@@ -1,50 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
-        <title>Landing Page</title> 
-    </head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="./style.css" />
+      </head>
     <body>
-        <header id="static-header">
-            <nav>
-                <ul>
-                    <li><a href="https://github.com/IRiceKrispie/mini-project-1">Github</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1 class="align-center">Work in Progress</h1>
-            <figure>
-                <img class="center-img" src="./assets/Images/brisket.jpg" alt="Image of moist brisket">
-                <figcaption class="align-center">Moist Brisket</figcaption>
-            </figure>
-            <section id="contact">
-                <h2 class="align-center">Contact Me For Brisket</h2>
-                <form>
-                    <ul>
-                        <li>
-                            <label class="align-right" for="name">Name:</label>
-                            <input type="text" id="name" name="user-name">
-                        </li>
-                        <li>
-                            <label class="align-right" for="email">Email:</label>
-                            <input type="text" id="email" name="user-email">
-                        </li>
-                        <div class="align-center">
-                            <button type="submit">SEND</button>
-                        </div>
-                    </ul>
-                </form>
-            </section>
-        </main>
-        <footer class="align-center">
-            <p>Send help</p>
-        </footer>
+        <h1>My To-Do List</h1>
+        <div class="text-here">
+            
+        </div>
+        <div>
+            <form>
+                <input type="text" placeholder="Enter Item" id="user-input" />
+                <button type="button" id="add-item">Add Item</button>
+                <button type="button" id="remove-last-item">Remove Last Item</button>
+                <button type="button" id="remove-first-item">Remove First Item</button>
+            </form>
+        </div>
+        <script src="./script.js"></script>
     </body>
-
-
 </html>
