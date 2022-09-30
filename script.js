@@ -10,6 +10,9 @@ container.appendChild(toDoList); //add our to do list to our container div
 
 //on click of add-item button
 addItem.addEventListener("click", function(){
+    if (userInput.value == ""){ //do nothing if text box is empty
+        return;
+    }
     var li = document.createElement("li"); //create list item
     li.textContent = userInput.value; //populate our list item using our user input
     toDoList.appendChild(li); //add populated list item to our to do list
